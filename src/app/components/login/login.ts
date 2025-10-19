@@ -11,7 +11,7 @@ export class Login {
   constructor(private router: Router) {}
 
   entrar() {
-    // Redireciona para a Home
+   
     this.router.navigate(['/home']);
   }
 }

@@ -3,7 +3,7 @@
   --green-dark:#16a34a;
   --text:#0f172a;
   --muted:#94a3b8;
-  --stroke:#94a3b8;         /* borda mais visível */
+  --stroke:#94a3b8;        
 }
 
 .container{ min-height:100vh; }
@@ -27,9 +27,9 @@
   margin-bottom:8px;
 }
 
-/* Inputs arredondados, com borda visível e altura consistente */
+
 .form-control{
-  height:44px;                    /* deixa mais compacto */
+  height:44px;                    
   border-radius:14px;
   border:1.8px solid var(--stroke);
   padding:10px 14px;
@@ -47,7 +47,7 @@
   outline:0;
 }
 
-/* Ícone à direita alinhado com o input */
+
 .input-group-text{
   height:44px;
   background:#fff;
@@ -62,7 +62,7 @@
   border-color:var(--green);
 }
 
-/* Botão verde consistente (se usar) */
+
 .btn-green{
   background:var(--green);
   color:#fff;
@@ -74,19 +74,18 @@
 .btn-green:hover{ background:var(--green-dark); }
 
 
-/* Botão verde cheio */
-/* Verde do projeto */
+
 .btn-green{
-  background:#22c55e;      /* tom correto */
+  background:#22c55e;      
   border:none;
   color:#fff;
-  padding:12px 16px;       /* altura confortável */
+  padding:12px 16px;       
   font-size:1rem;
 }
 .btn-green:hover{ background:#16a34a; }
 
 
-/* Texto “Possui conta? Entrar” */
+
 .hint{ color:#94a3b8; }
 .link-green{ color:var(--green); text-decoration:none; }
 .link-green:hover{ text-decoration:underline; }

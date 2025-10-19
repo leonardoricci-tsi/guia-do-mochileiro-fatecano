@@ -36,7 +36,7 @@
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 44px 60px; /* espaçamento vertical/horizontal */
+  gap: 44px 60px; 
 }
 
 
