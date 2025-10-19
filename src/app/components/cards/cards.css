@@ -1,0 +1,26 @@
+.card-link {
+  text-decoration: none;
+}
+
+.term-card {
+  
+  min-height: 220px;
+  border-radius: 16px;
+
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.08);
+  display: grid;
+  place-items: center;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.term-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.term-title {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.4vw, 2rem); 
+  color: #333;                            
+  font-weight: 600;
+}

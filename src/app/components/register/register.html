@@ -1,0 +1,57 @@
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center w-100 px-4 px-md-5">
+
+        <!-- Ilustração -->
+        <div class="col-md-6 text-center mb-4 mb-md-0">
+            <img src="Book lover-bro 2.svg" alt="Ilustração de leitura" class="img-fluid" style="max-width: 100%;">
+        </div>
+
+        <!-- Formulário -->
+        <div class="container d-flex justify-content-center">
+            <div class="register-wrap">
+
+                <h2 class="title text-center">Cadastre-se</h2>
+
+                <form>
+                    <!-- Nome -->
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Nome</label>
+                        <input id="name" type="text" class="form-control" placeholder="Digite seu nome">
+                    </div>
+
+                    <!-- E-mail -->
+                    <div class="mb-4">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input id="email" type="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <!-- Senha -->
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Senha</label>
+                        <div class="input-group">
+                            <input id="password" type="password" class="form-control" placeholder="Digite sua senha">
+
+                        </div>
+                    </div>
+
+                    <!-- Confirmação -->
+                    <div class="mb-5">
+                        <label for="confirm" class="form-label">Confirmação da senha</label>
+                        <div class="input-group">
+                            <input id="confirm" type="password" class="form-control" placeholder="Confirme sua senha">
+                            <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-green w-100 rounded-3 fw-semibold">
+                        Cadastrar
+                    </button>
+                </form>
+
+                <p class="hint text-center mt-3 mb-0">
+                    Possui conta? <a routerLink="/" class="link-green fw-semibold">Entrar</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

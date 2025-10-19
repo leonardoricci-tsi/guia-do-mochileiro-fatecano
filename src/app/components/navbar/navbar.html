@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand bg-success px-3 py-2 shadow-sm">
+    <div class="container-fluid">
+
+        <!-- Brand (ícone + texto) -->
+        <a class="navbar-brand d-flex align-items-center gap-2 text-white" routerLink="/home">
+            <img src="Logo (3) 1.svg" alt="Logo Guia do Mochileiro" width="36" height="36" />
+            <span class="navbar-brand-title fw-semibold">
+                Guia do mochileiro<br>Fatecano
+               
+            </span>
+        </a>
+
+
+        <!-- Menu à direita -->
+        <ul class="navbar-nav ms-auto align-items-center gap-2">
+
+            <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" routerLink="/home" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }" aria-label="Ir para Home">
+                    <i class="bi bi-house-door" aria-hidden="true"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" routerLink="/notificacoes" routerLinkActive="active"
+                    aria-label="Ver notificações">
+                    <i class="bi bi-bell" aria-hidden="true"></i>
+                    <span>Notificações</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" routerLink="/materias" routerLinkActive="active"
+                    aria-label="Ver matérias">
+                    <i class="bi bi-journal-text" aria-hidden="true"></i>
+                    <span>Matérias</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" routerLink="/valores" routerLinkActive="active"
+                    aria-label="Ver valores">
+                    <i class="bi bi-star" aria-hidden="true"></i>
+                    <span>valores</span>
+                </a>
+            </li>
+
+            <li class="nav-item ms-2">
+                <a class="btn btn-light text-success fw-semibold d-flex align-items-center gap-2" routerLink="/"
+                    aria-label="Sair">
+                    <i class="bi bi-box-arrow-right" aria-hidden="true"></i>
+                    <span>Sair</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
